@@ -1,0 +1,4 @@
+mercury
+earth
+spiral
+elliptical
