@@ -7,4 +7,5 @@
 
 ## Test model
 
-`python /home/ritwik/git/planets/a/hub/examples/image_retraining/label_image.py /home/ritwik/git/planets/hub/examples/image_retraining/training_data/mercury/GSFC_20171208_Archive_e000797_thumb.jpg`
+`python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
+`
