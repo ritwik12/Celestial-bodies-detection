@@ -1,5 +1,67 @@
 # Celestial-bodies-detection
 
+## Setup
+
+* **Tensorflow**
+
+    Create a virtual environment (recommended)
+
+    Python virtual environments are used to isolate package installation from the system.
+
+    Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
+
+    `virtualenv --system-site-packages -p python3 ./venv`
+
+    Activate the virtual environment using a shell-specific command:
+
+    `source ./venv/bin/activate  # sh, bash, ksh, or zsh`
+
+    Install Tensorflow
+
+    `pip install tensorflow`
+ 
+* **Inception**
+
+Downloaded automatically while training
+
+## Using Model
+
+#### Classified Neptune Image and percentage of Accuracy
+
+![output1](https://user-images.githubusercontent.com/20038775/51538729-0cbafa80-1e78-11e9-95c1-492693e60aaa.png)
+
+
+#### Classified Jupiter Image and percentage of Matched Accuracy
+
+![output3](https://user-images.githubusercontent.com/20038775/51538741-16dcf900-1e78-11e9-9ef7-bcf2ca35ed91.png)
+
+
+#### Shows the percentage of every class
+
+![output2](https://user-images.githubusercontent.com/20038775/51539062-05e0b780-1e79-11e9-9073-03d33bfa25aa.png)
+
+
+#### Fetched information from Internet
+
+![output4](https://user-images.githubusercontent.com/20038775/51538745-180e2600-1e78-11e9-9636-bce4ce66cbae.png)
+
+
+#### Reverse Search of Classified Image
+
+![output5](https://user-images.githubusercontent.com/20038775/51538748-18a6bc80-1e78-11e9-822e-ae588ed2f78b.png)
+
+
+#### Accuracy of matching of Spiral Galaxy
+
+![output6](https://user-images.githubusercontent.com/20038775/51538750-193f5300-1e78-11e9-85a2-841a7a35490f.png)
+
+
+#### Fetched information from Internet of the Classified Class
+
+![output7](https://user-images.githubusercontent.com/20038775/51538753-19d7e980-1e78-11e9-9d55-cfbda95200fa.png)
+
+
+
 ## Train model
 
 `python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
