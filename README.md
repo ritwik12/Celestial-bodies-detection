@@ -52,6 +52,8 @@ high as 840°F during the day and hundreds of degrees below the freezing point a
 night. There is no atmosphere due to the intense temperatures so the planet's surface
 is covered with pock marks and craters from meteor impacts.
 
+![mercury](https://user-images.githubusercontent.com/20038775/51534561-16d6fc00-1e6c-11e9-8e7b-1859f81f6213.jpg)
+
 * **Venus:**  this toxic planet, primarily consisting of carbon dioxide, is next in line
 from the sun and contains a pressure index that would crush anyone who landed on
 its surface. Though it is further away from the sun then Mercury, Venus is the
@@ -59,17 +61,23 @@ hottest planet in the solar system and is able to be seen by the naked eye from 
 A thick cloud shrouds the planet, making it difficult to see its surface which
 attributes to its brilliance.
 
+![venus](https://user-images.githubusercontent.com/20038775/51534566-18082900-1e6c-11e9-9756-2a90522b5b0a.jpg)
+
 * **Earth:**  is the planet in which we live on and is the 3rd planet from the sun. Also
 known as "Terra" the Earth is the only planet within our solar system that is capable
 of sustaining advanced life forms, such as humans. The Earth's rotation around the
 sun is approximately 365 days and it is believed that the Earth is approximately
 four thousand million years.
 
+![earth](https://user-images.githubusercontent.com/20038775/51534558-163e6580-1e6c-11e9-920e-1f495fae4179.jpg)
+
 * **Mars:**  the fourth planet from the sun the "red planet", so named for its reddish
 color due to the high iron content in its soil, has a rotation around the sun of 686
 days. Its thin atmosphere, consisting primarily of carbon dioxide, makes it
 unsuitable for sustaining life, but is believed to have at one time been capable of it
 and might still be able in the future.
+
+![mars](https://user-images.githubusercontent.com/20038775/51534560-16d6fc00-1e6c-11e9-96bf-3e71e6819326.jpg)
 
 * **Jupiter:**  the largest planet in our system, the mysteries of Jupiter has fascinated
 astronomers and non-astronomers alike for centuries. Poisonous gases completely
@@ -78,6 +86,8 @@ of probes onto or images taken of the giant planet. Jupiter's atmosphere has bee
 determined to be similar to that of the sun containing elements of hydrogen and
 helium.
 
+![jupiter](https://user-images.githubusercontent.com/20038775/51534559-163e6580-1e6c-11e9-8938-500f7ad8849f.jpg)
+
 * **Saturn:**  first viewed via telescope in 1610 by Galileo Galilei, is the 6th planet
 in our solar system from the sun. Like Jupiter, its atmosphere is composed
 primarily of helium and hydrogen and it is the only planet discovered so far that
@@ -85,17 +95,24 @@ has a lower density than water, approximately 30% lower. It is surrounded by a s
 of 9 whole rings and 3 broken rings that are comprised mainly of ice, rock, and
 space "dust".
 
+![saturn](https://user-images.githubusercontent.com/20038775/51534564-176f9280-1e6c-11e9-9289-10da8ba0677a.jpg)
+
 * **Uranus:**  also known as the "sideways planet" because of its awkward rotation,
 is the 7th planet in our solar system from the sun. Its North and South poles are
 located where other planets equators are, given to its strange rotation and its 20
 years long seasons. The level of methane gases in its atmosphere account for its
 bluish color, but the main elements in Uranus' atmosphere is helium and hydrogen.
 
+![uranus](https://user-images.githubusercontent.com/20038775/51534565-176f9280-1e6c-11e9-98d5-2894a5a2b1ba.jpg)
+
+
 * **Neptune:**  is known as the windiest planet in our solar system and 8th furthermost
 known "planet" from our sun. It has a revolution around the sun of 165 Earth years.
 Like Uranus, Neptune has high traces of methane in its atmosphere, which
 contributes to its blue color. It is believed there is a second "unknown" element,
 though, that makes it a much brighter blue than Uranus.
+
+![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
 
 
 ## Train model
