@@ -2,25 +2,25 @@
 
 ## Setup
 
-* **Tensorflow**
+#### Tensorflow
+    
+Create a virtual environment (recommended)
 
-    Create a virtual environment (recommended)
+Python virtual environments are used to isolate package installation from the system.
 
-    Python virtual environments are used to isolate package installation from the system.
+Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 
-    Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
+`virtualenv --system-site-packages -p python3 ./venv`
 
-    `virtualenv --system-site-packages -p python3 ./venv`
+Activate the virtual environment using a shell-specific command:
 
-    Activate the virtual environment using a shell-specific command:
+`source ./venv/bin/activate  # sh, bash, ksh, or zsh`
 
-    `source ./venv/bin/activate  # sh, bash, ksh, or zsh`
+Install Tensorflow
 
-    Install Tensorflow
-
-    `pip install tensorflow`
+`pip install tensorflow`   
  
-* **Inception**
+#### Inception
 
 Downloaded automatically while training
 
