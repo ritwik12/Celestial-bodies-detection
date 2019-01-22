@@ -19,10 +19,11 @@ Figure 1: Three classes of galaxy morphological. From left to right: Elliptical 
 Shaped Galaxy and Irregular Shaped Galaxy (en.Wikipedia.org, 2006)
 
 There are different types of galaxies:
-* **ELLIPTICAL**
 
-    An elliptical galaxy is a type of galaxy having an approximately ellipsoidal shape and a smooth, nearly featureless image. 
-    Unlike flat spiral galaxies with organization and structure, elliptical galaxies are more three-dimensional, without much   
+* **ELLIPTICAL** 
+
+    An elliptical galaxy is a type of galaxy having an approximately ellipsoidal shape and a smooth, nearly featureless image.      
+    Unlike flat spiral galaxies with organization and structure, elliptical galaxies are more three-dimensional, without much 
     structure, and their stars are in somewhat random orbits around the center.
     
 * **SPIRAL**
@@ -36,6 +37,65 @@ There are different types of galaxies:
     An irregular galaxy is a galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy. 
     Irregular galaxies do not fall into any of the regular classes of the Hubble sequence, and they are often chaotic in 
     appearance, with neither a nuclear bulge nor any trace of spiral arm structure.
+    
+### PLANETS
+
+A planet is an astronomical body orbiting a star or stellar remnant that is massive enough
+to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion,
+and has cleared its neighbouring region of planetesimals.
+There are total of 8 planets in our solar system:
+
+* **Mercury:**  the closest to the sun and the second smallest planet in our solar
+system, Mercury has a rotation of only 88 days around the sun. Because of its close
+proximity to the celestial giant, the surface of the planet reaches temperatures as
+high as 840°F during the day and hundreds of degrees below the freezing point at
+night. There is no atmosphere due to the intense temperatures so the planet's surface
+is covered with pock marks and craters from meteor impacts.
+
+* **Venus:**  this toxic planet, primarily consisting of carbon dioxide, is next in line
+from the sun and contains a pressure index that would crush anyone who landed on
+its surface. Though it is further away from the sun then Mercury, Venus is the
+hottest planet in the solar system and is able to be seen by the naked eye from Earth.
+A thick cloud shrouds the planet, making it difficult to see its surface which
+attributes to its brilliance.
+
+* **Earth:**  is the planet in which we live on and is the 3rd planet from the sun. Also
+known as "Terra" the Earth is the only planet within our solar system that is capable
+of sustaining advanced life forms, such as humans. The Earth's rotation around the
+sun is approximately 365 days and it is believed that the Earth is approximately
+four thousand million years.
+
+* **Mars:**  the fourth planet from the sun the "red planet", so named for its reddish
+color due to the high iron content in its soil, has a rotation around the sun of 686
+days. Its thin atmosphere, consisting primarily of carbon dioxide, makes it
+unsuitable for sustaining life, but is believed to have at one time been capable of it
+and might still be able in the future.
+
+* **Jupiter:**  the largest planet in our system, the mysteries of Jupiter has fascinated
+astronomers and non-astronomers alike for centuries. Poisonous gases completely
+cover its surface, hiding what lies beneath and violent storms prevent any landings
+of probes onto or images taken of the giant planet. Jupiter's atmosphere has been
+determined to be similar to that of the sun containing elements of hydrogen and
+helium.
+
+* **Saturn:**  first viewed via telescope in 1610 by Galileo Galilei, is the 6th planet
+in our solar system from the sun. Like Jupiter, its atmosphere is composed
+primarily of helium and hydrogen and it is the only planet discovered so far that
+has a lower density than water, approximately 30% lower. It is surrounded by a set
+of 9 whole rings and 3 broken rings that are comprised mainly of ice, rock, and
+space "dust".
+
+* **Uranus:**  also known as the "sideways planet" because of its awkward rotation,
+is the 7th planet in our solar system from the sun. Its North and South poles are
+located where other planets equators are, given to its strange rotation and its 20
+years long seasons. The level of methane gases in its atmosphere account for its
+bluish color, but the main elements in Uranus' atmosphere is helium and hydrogen.
+
+* **Neptune:**  is known as the windiest planet in our solar system and 8th furthermost
+known "planet" from our sun. It has a revolution around the sun of 165 Earth years.
+Like Uranus, Neptune has high traces of methane in its atmosphere, which
+contributes to its blue color. It is believed there is a second "unknown" element,
+though, that makes it a much brighter blue than Uranus.
 
 
 ## Train model
