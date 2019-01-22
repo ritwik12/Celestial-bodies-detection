@@ -200,5 +200,17 @@ though, that makes it a much brighter blue than Uranus.
 
 ![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
 
+# License
+
+ritwik12/Celestial-bodies-detection is licensed under the GNU General Public License v3.0
+
+Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
+1. The origin of this software must not be misrepresented; you must not
+ claim that you wrote the original software. If you use this software
+ in a product, an acknowledgment in the product documentation would be
+ appreciated but is not required.
+ 2. Altered source versions must be plainly marked as such, and must not be
+ misrepresented as being the original software.
+
 
 
