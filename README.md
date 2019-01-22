@@ -1,5 +1,29 @@
 # Celestial-bodies-detection
 
+## Train model
+
+`python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
+`
+
+## Test model
+
+`python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
+`
+
+## INCEPTION
+
+![1_c26y0gugmtvnskibfuja_w](https://user-images.githubusercontent.com/20038775/51536739-8f40bb80-1e72-11e9-8863-b79a347d80f4.png)
+
+
+The Inception network was an important milestone in the development of CNN classifiers. Prior to its inception (pun intended), most popular CNNs just stacked convolution layers deeper and deeper, hoping to get better performance.
+
+The Inception network on the other hand, was complex (heavily engineered). It used a lot of tricks to push performance; both in terms of speed and accuracy. Its constant evolution lead to the creation of several versions of the network.
+
+The below image is the “naive” inception module. It performs convolution on an input, with 3 different sizes of filters (1x1, 3x3, 5x5). Additionally, max pooling is also performed. The outputs are concatenated and sent to the next inception module.
+
+![inception](https://user-images.githubusercontent.com/20038775/51536689-68828500-1e72-11e9-8a7c-ae8e3a3939e9.png)
+
+
 ## CELESTIAL BODIES
 
 An astronomical object or celestial object is a naturally occurring physical entity, association, or structure that exists in the observable universe. [1] In astronomy, the terms object and body are often used interchangeably. However, an astronomical body or celestial body is a single, tightly bound, contiguous entity, while an astronomical or celestial object is a complex, less cohesively bound structure, which may consist of multiple bodies or even other objects with substructures. 
@@ -115,12 +139,4 @@ though, that makes it a much brighter blue than Uranus.
 ![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
 
 
-## Train model
 
-`python retrain.py   --bottleneck_dir=bottlenecks   --how_many_training_steps=500   --model_dir=inception --summaries_dir=training_summaries/basic   --output_graph=retrained_graph.pb   --output_labels=retrained_labels.txt  --image_dir=./training_data
-`
-
-## Test model
-
-`python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
-`
