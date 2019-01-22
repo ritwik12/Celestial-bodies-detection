@@ -14,6 +14,29 @@ large-scale database is important to help astronomers reduce classification erro
 
 With the help of space telescopes that are much more powerful than our eyesight, astronomers are able to look into time and space as far as billions of light years away from Earth and explore millions of galaxies far away from our own.
 
+![galaxies](https://user-images.githubusercontent.com/20038775/51533376-a7abd880-1e68-11e9-831f-18a1b0cc4f07.png)
+Figure 1: Three classes of galaxy morphological. From left to right: Elliptical Shaped Galaxy, Spiral
+Shaped Galaxy and Irregular Shaped Galaxy (en.Wikipedia.org, 2006)
+
+There are different types of galaxies:
+* **ELLIPTICAL**
+
+    An elliptical galaxy is a type of galaxy having an approximately ellipsoidal shape and a smooth, nearly featureless image. 
+    Unlike flat spiral galaxies with organization and structure, elliptical galaxies are more three-dimensional, without much   
+    structure, and their stars are in somewhat random orbits around the center.
+    
+* **SPIRAL**
+
+    Spiral galaxies form a class of galaxy originally described by Edwin Hubble in his 1936 work The Realm of the Nebulae and, as 
+    such, form part of the Hubble sequence. Most spiral galaxies consist of a flat, rotating disk containing stars, gas and dust, 
+    and a central concentration of stars known as the bulge.
+    
+* **IRREGULAR**
+
+    An irregular galaxy is a galaxy that does not have a distinct regular shape, unlike a spiral or an elliptical galaxy. 
+    Irregular galaxies do not fall into any of the regular classes of the Hubble sequence, and they are often chaotic in 
+    appearance, with neither a nuclear bulge nor any trace of spiral arm structure.
+
 
 ## Train model
 
