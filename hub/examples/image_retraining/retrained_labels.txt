@@ -1,4 +1,10 @@
 mercury
-earth
+mars
+neptune
 spiral
+jupiter
+uranus
 elliptical
+earth
+venus
+saturn

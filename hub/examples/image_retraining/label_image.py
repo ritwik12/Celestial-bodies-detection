@@ -1,6 +1,7 @@
 import tensorflow as tf, sys
 from subprocess import Popen
 import os
+import wikipedia
 
 image_path = sys.argv[1]
 
@@ -29,9 +30,82 @@ with tf.Session() as sess:
         print('%s (score = %.5f)' % (human_string, score))
         print '  %.5f' % (score*100),"%"
         print "--------------------------------------------------------"
+# Get the predicted celestial object after classification
+celestial_object = label_lines[top_k[0]]
+#Popen(["python", "wiki.py"])
+
 image_preview="display "+image_path
 os.system(image_preview)        
 print "\n"
+
+
+def wiki(celestial_object):
+    ans = celestial_object
+
+    if(ans == "spiral"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Spiral Galaxy : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Spiral Galaxy", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Spiral galaxy').summary)
+    elif(ans == "elliptical"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Elliptical Galaxy : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Elliptical galaxy", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Elliptical galaxy').summary)
+    elif(ans == "mercury"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Mercury Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Mercury (planet)", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Mercury (planet)').summary)
+    elif(ans == "venus"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Venus Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Venus", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Venus').summary)
+    elif(ans == "earth"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Earth Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Earth", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Earth').summary)
+    elif(ans == "mars"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Mars Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Mars", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Mars').summary)
+    elif(ans == "jupiter"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Jupiter Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Jupiter", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Jupiter').summary)
+    elif(ans == "saturn"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Saturn Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Saturn", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Saturn').summary)
+    elif(ans == "uranus"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Uranus Planet : ")
+        print("-------------------------------------------------------- \n")
+        #print(wikipedia.summary("Uranus", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Uranus').summary)
+    elif(ans == "neptune"):
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is Neptune Planet : ")
+        print("-------------------------------------------------------- \n")
+       # print(wikipedia.summary("Neptune", sentences=2))
+        print(wikipedia.WikipediaPage(title = 'Neptune').summary)
+    return " "
+
+print wiki(celestial_object)
+print("------------------------------------------------------ \n")
 ans = raw_input("Want to know more about this image? y/n \n")
 if ans.rstrip() is "y":
     Popen(["python", "reverse-image-search.py", image_path])
