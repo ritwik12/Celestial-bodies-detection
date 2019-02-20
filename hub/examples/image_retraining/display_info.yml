@@ -1,5 +1,5 @@
 mercury:
-  avg_dist: 57,900,000 km
+  Average Distance from the sun: 57,900,000 km
   Diameter: 4,878 km
   Surface Composition: Terrestrial
   Rotation Period: 59 days
@@ -7,7 +7,7 @@ mercury:
   Known No. of Moons: 0
 
 venus:
-  avg_dist: 108,160,000 km
+  Average Distance from the sun: 108,160,000 km
   Diameter: 12,104 km
   Surface Composition: Terrestrial
   Rotation Period: 243 days
@@ -15,7 +15,7 @@ venus:
   Known No. of Moons: 0
 
 earth:
-  avg_dist: 149,600,000 km
+  Average Distance from the sun: 149,600,000 km
   Diameter: 12,756 km
   Surface Composition: Terrestrial
   Rotation Period: 23 hours, 56 mins
