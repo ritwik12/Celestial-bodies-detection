@@ -40,7 +40,7 @@ os.system(image_preview)
 print "\n"
 
 
-def wiki(celestial_object) -> None:
+def wiki(celestial_object):
     ans = celestial_object
     with open(os.path.join(r'examples/image_retraining/display_info.yaml'), 'r') as stream:
         all_display_statistics = load(stream)
