@@ -42,24 +42,24 @@ print "\n"
 
 def wiki(celestial_object):
     ans = celestial_object
-    with open(os.path.join(r'examples/image_retraining/display_info.yaml'), 'r') as stream:
+    cwd = os.getcwd()
+    with open(os.path.join(cwd, 'hub', 'examples', 'image_retraining', 'display_info.yml'), 'r') as stream:
         all_display_statistics = load(stream)
 
     req_statistics = all_display_statistics.get(ans, {})
-    statistics = "\n".join(['{}:{}'.format(parameter, value) for parameter, value in req_statistics.items()])
 
     if ans in ["spiral", "elliptical"]:
         print("--------------------------------------------------------")
         print("Classified Celestial Object is {} Galaxy : ".format(ans.capitalize()))
         print("-------------------------------------------------------- \n")
         # print(wikipedia.summary("Spiral Galaxy", sentences=2))
-        print(statistics)
         print(wikipedia.WikipediaPage(title='{} galaxy'.format(ans)).summary)
     elif ans in ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune']:
         print("--------------------------------------------------------")
         print("Classified Celestial Object is {} Planet : ".format(ans.capitalize()))
         print("-------------------------------------------------------- \n")
-        print(statistics)
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
         # print(wikipedia.summary("Mercury (planet)", sentences=2))
         print(wikipedia.WikipediaPage(title='{} (planet)'.format(ans)).summary)
     return " "
