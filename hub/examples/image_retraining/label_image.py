@@ -43,7 +43,7 @@ print "\n"
 def wiki(celestial_object):
     ans = celestial_object
     cwd = os.getcwd()
-    with open(os.path.join(cwd, 'hub', 'examples', 'image_retraining', 'display_info.yml'), 'r') as stream:
+    with open(os.path.join(cwd, 'display_info.yaml'), 'r') as stream:
         all_display_statistics = load(stream)
 
     req_statistics = all_display_statistics.get(ans, {})
@@ -68,4 +68,4 @@ print wiki(celestial_object)
 print("------------------------------------------------------ \n")
 ans = raw_input("Want to know more about this image? y/n \n")
 if ans.rstrip() is "y":
-    Popen(["python", "reverse-image-search.py", image_path])
+	Popen(["python", "reverse-image-search.py", image_path])
