@@ -2,6 +2,7 @@ import tensorflow as tf, sys
 from subprocess import Popen
 import os
 import wikipedia
+from yaml import load
 
 image_path = sys.argv[1]
 
@@ -41,67 +42,26 @@ print "\n"
 
 def wiki(celestial_object):
     ans = celestial_object
+    cwd = os.getcwd()
+    with open(os.path.join(cwd, 'hub', 'examples', 'image_retraining', 'display_info.yml'), 'r') as stream:
+        all_display_statistics = load(stream)
 
-    if(ans == "spiral"):
+    req_statistics = all_display_statistics.get(ans, {})
+
+    if ans in ["spiral", "elliptical"]:
         print("--------------------------------------------------------")
-        print("Classified Celestial Object is Spiral Galaxy : ")
+        print("Classified Celestial Object is {} Galaxy : ".format(ans.capitalize()))
         print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Spiral Galaxy", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Spiral galaxy').summary)
-    elif(ans == "elliptical"):
+        # print(wikipedia.summary("Spiral Galaxy", sentences=2))
+        print(wikipedia.WikipediaPage(title='{} galaxy'.format(ans)).summary)
+    elif ans in ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune']:
         print("--------------------------------------------------------")
-        print("Classified Celestial Object is Elliptical Galaxy : ")
+        print("Classified Celestial Object is {} Planet : ".format(ans.capitalize()))
         print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Elliptical galaxy", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Elliptical galaxy').summary)
-    elif(ans == "mercury"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Mercury Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Mercury (planet)", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Mercury (planet)').summary)
-    elif(ans == "venus"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Venus Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Venus", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Venus').summary)
-    elif(ans == "earth"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Earth Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Earth", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Earth').summary)
-    elif(ans == "mars"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Mars Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Mars", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Mars').summary)
-    elif(ans == "jupiter"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Jupiter Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Jupiter", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Jupiter').summary)
-    elif(ans == "saturn"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Saturn Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Saturn", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Saturn').summary)
-    elif(ans == "uranus"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Uranus Planet : ")
-        print("-------------------------------------------------------- \n")
-        #print(wikipedia.summary("Uranus", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Uranus').summary)
-    elif(ans == "neptune"):
-        print("--------------------------------------------------------")
-        print("Classified Celestial Object is Neptune Planet : ")
-        print("-------------------------------------------------------- \n")
-       # print(wikipedia.summary("Neptune", sentences=2))
-        print(wikipedia.WikipediaPage(title = 'Neptune').summary)
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        # print(wikipedia.summary("Mercury (planet)", sentences=2))
+        print(wikipedia.WikipediaPage(title='{} (planet)'.format(ans)).summary)
     return " "
 
 print wiki(celestial_object)

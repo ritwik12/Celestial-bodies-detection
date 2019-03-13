@@ -1,0 +1,63 @@
+mercury:
+  Average Distance from the sun: 57,900,000 km
+  Diameter: 4,878 km
+  Surface Composition: Terrestrial
+  Rotation Period: 59 days
+  Revolution Period: 88 days
+  Known No. of Moons: 0
+
+venus:
+  Average Distance from the sun: 108,160,000 km
+  Diameter: 12,104 km
+  Surface Composition: Terrestrial
+  Rotation Period: 243 days
+  Revolution Period: 224 days
+  Known No. of Moons: 0
+
+earth:
+  Average Distance from the sun: 149,600,000 km
+  Diameter: 12,756 km
+  Surface Composition: Terrestrial
+  Rotation Period: 23 hours, 56 mins
+  Revolution Period: 365.25 days
+  Known No. of Moons: 1
+
+mars:
+  Average Distance from the sun: 227,936,640 km
+  Diameter: 6,794 km
+  Surface Composition: Terrestrial
+  Rotation Period: 24 hours, 37 mins
+  Revolution Period: 687 days
+  Known No. of Moons: 2
+
+jupiter:
+  Average Distance from the sun: 778,369,000 km
+  Diameter: 142,984 km
+  Surface Composition: Jovian
+  Rotation Period: 9 hours, 55 mins
+  Revolution Period: 11.86 years
+  Known No. of Moons: 79
+
+saturn:
+  Average Distance from the sun: 1,427,034,000 km
+  Diameter: 120,536 km
+  Surface Composition: Jovian
+  Rotation Period: 10 hours, 39 mins
+  Revolution Period: 29 years
+  Known No. of Moons: 62
+
+uranus:
+  Average Distance from the sun: 2,870,658,186 km
+  Diameter: 51,118 km
+  Surface Composition: Jovian
+  Rotation Period: 17 hours, 14 mins
+  Revolution Period: 84 years
+  Known No. of Moons: 27
+
+neptune:
+  Average Distance from the sun: 4,496,976,000 km
+  Diameter: 49,532 km
+  Surface Composition: Jovian
+  Rotation Period: 16 hours, 7 mins
+  Revolution Period: 164.8 years
+  Known No. of Moons: 14
