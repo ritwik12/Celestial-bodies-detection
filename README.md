@@ -130,12 +130,7 @@ to be rounded by its own gravity, is not massive enough to cause thermonuclear f
 and has cleared its neighbouring region of planetesimals.
 There are a total of 8 planets in our solar system:
 
-* **Mercury:**  the closest to the sun and the second smallest planet in our solar
-system, Mercury has a rotation of only 88 days around the sun. Because of its close
-proximity to the celestial giant, the surface of the planet reaches temperatures as
-high as 840°F during the day and hundreds of degrees below the freezing point at
-night. There is no atmosphere due to the intense temperatures so the planet's surface
-is covered with pockmarks and craters from meteor impacts.
+* **Mercury:** is the closest planet to the sun and the smallest planet in our solar system. Mercury has a rotation of 88 days around the sun. The close proximity of Mercury to the sun causes the surface temperatures to reach a high of 840°F during the day and hundreds of degrees below the freezing point at night. Mercury does not have an atmosphere due to the extreme temperatures. Without an atmosphere, the surface of Mercury is covered with pockmarks and craters from meteor impacts. 
 
 ![mercury](https://user-images.githubusercontent.com/20038775/51534561-16d6fc00-1e6c-11e9-8e7b-1859f81f6213.jpg)
 
