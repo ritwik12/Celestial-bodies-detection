@@ -134,7 +134,7 @@ There are a total of 8 planets in our solar system:
 
 ![mercury](https://user-images.githubusercontent.com/20038775/51534561-16d6fc00-1e6c-11e9-8e7b-1859f81f6213.jpg)
 
-* **Venus:** is the third planet from the sun and the hottest planet in the solar system. ![Venus](https://en.wikipedia.org/wiki/Venus) primarily consists of carbon dioxide which makes the planet toxic. The atmospheric pressure of Venus is capable of crushing anyone who landed on its surface. Venus can be seen by the naked eye from Earth. Thick clouds shroud Venus, making it difficult to see the details of the planet's surface. 
+* **Venus:** is the third planet from the sun and the hottest planet in the solar system. [Venus](https://en.wikipedia.org/wiki/Venus) primarily consists of carbon dioxide which makes the planet toxic. The atmospheric pressure of Venus is capable of crushing anyone who landed on its surface. Venus can be seen by the naked eye from Earth. Thick clouds shroud Venus, making it difficult to see the details of the planet's surface. 
 
 ![venus](https://user-images.githubusercontent.com/20038775/51534566-18082900-1e6c-11e9-9756-2a90522b5b0a.jpg)
 
