@@ -143,11 +143,7 @@ attributes to its brilliance.
 
 ![venus](https://user-images.githubusercontent.com/20038775/51534566-18082900-1e6c-11e9-9756-2a90522b5b0a.jpg)
 
-* **Earth:**  is the planet in which we live on and is the 3rd planet from the sun. Also
-known as "Terra" the Earth is the only planet within our solar system that is capable
-of sustaining advanced life forms, such as humans. The Earth's rotation around the
-sun is approximately 365 days and it is believed that the Earth is approximately
-four thousand million years.
+* **Earth:** also known as "Terra", is the third planet from the sun. [Earth](https://en.wikipedia.org/wiki/Earth) is the only planet in our solar system that is capable of sustaining life. The rotation of Earth around the sun is approximately 365 days. The estimated age of the Earth is 4.54 billion years.
 
 ![earth](https://user-images.githubusercontent.com/20038775/51534558-163e6580-1e6c-11e9-920e-1f495fae4179.jpg)
 
