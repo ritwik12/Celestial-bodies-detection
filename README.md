@@ -151,11 +151,7 @@ four thousand million years.
 
 ![earth](https://user-images.githubusercontent.com/20038775/51534558-163e6580-1e6c-11e9-920e-1f495fae4179.jpg)
 
-* **Mars:**  the fourth planet from the sun the "red planet", so named for its reddish
-color due to the high iron content in its soil, has a rotation around the sun of 686
-days. Its thin atmosphere, consisting primarily of carbon dioxide, makes it
-unsuitable for sustaining life, but is believed to have at one time been capable of it
-and might still be able in the future.
+* **Mars:** is the fourth planet from the sun. [Mars](https://en.wikipedia.org/wiki/Mars) is also known as the "red planet" because of the reddish color formed by the high iron content in its soil. The rotation of Mars around the sun is approximately 686 days. The thin atmosphere of Mars consists mainly of carbon dioxide which makes it unsuitable for sustaining life. Scientists believed Mars to have once been capable of sustaining life and still might be able to in the future. 
 
 ![mars](https://user-images.githubusercontent.com/20038775/51534560-16d6fc00-1e6c-11e9-96bf-3e71e6819326.jpg)
 
