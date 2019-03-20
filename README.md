@@ -155,12 +155,7 @@ helium.
 
 ![jupiter](https://user-images.githubusercontent.com/20038775/51534559-163e6580-1e6c-11e9-8938-500f7ad8849f.jpg)
 
-* **Saturn:**  first viewed via telescope in 1610 by Galileo Galilei, is the 6th planet
-in our solar system from the sun. Like Jupiter, its atmosphere is composed
-primarily of helium and hydrogen and it is the only planet discovered so far that
-has a lower density than water, approximately 30% lower. It is surrounded by a set
-of 9 whole rings and 3 broken rings that are comprised mainly of ice, rock, and
-space "dust".
+* **Saturn:** is the sixth planet in our solar system from the sun. [Saturn](https://en.wikipedia.org/wiki/Saturn) was first viewed by a telescope in 1610 by Galileo Galilei. A set of 9 whole rings and 3 broken rings surround Saturn. The rings of Saturn are mainly made up of ice, rock and space dust.  Like Jupiter, Saturn's atmosphere is composed primarily of helium and hydrogen. Saturn's density is 30% lower than water and is the only known planet in our solar system to have a density lower than water. 
 
 ![saturn](https://user-images.githubusercontent.com/20038775/51534564-176f9280-1e6c-11e9-9289-10da8ba0677a.jpg)
 
