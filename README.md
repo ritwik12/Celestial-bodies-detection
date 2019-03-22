@@ -164,11 +164,7 @@ space "dust".
 
 ![saturn](https://user-images.githubusercontent.com/20038775/51534564-176f9280-1e6c-11e9-9289-10da8ba0677a.jpg)
 
-* **Uranus:**  also known as the "sideways planet" because of its awkward rotation,
-is the 7th planet in our solar system from the sun. Its North and South poles are
-located where other planets equators are, given to its strange rotation and its 20
-years long seasons. The level of methane gases in its atmosphere account for its
-bluish color, but the main elements in Uranus' atmosphere is helium and hydrogen.
+* **Uranus:** also known as the "sideways planet" because of its awkward rotation, is the 7th planet in our solar system from the sun. Uranus' North and South poles are located where other planets equators are. Seasons are 20 years long due to Uranus' strange rotation. The bluish color of Uranus' atmosphere is caused by methane gases, but the main elements are helium and hydrogen. 
 
 ![uranus](https://user-images.githubusercontent.com/20038775/51534565-176f9280-1e6c-11e9-98d5-2894a5a2b1ba.jpg)
 
