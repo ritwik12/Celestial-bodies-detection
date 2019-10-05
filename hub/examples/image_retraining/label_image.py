@@ -27,23 +27,23 @@ with tf.Session() as sess:
     for node_id in top_k:
         human_string = label_lines[node_id]
         score = predictions[0][node_id]
-        print "\n--------------------------------------------------------"
+        print("\n--------------------------------------------------------")
         print('%s (score = %.5f)' % (human_string, score))
-        print '  %.5f' % (score*100),"%"
-        print "--------------------------------------------------------"
+        print('  %.5f' % (score*100),"%")
+        print("--------------------------------------------------------")
 # Get the predicted celestial object after classification
 celestial_object = label_lines[top_k[0]]
 #Popen(["python", "wiki.py"])
 
 image_preview="display "+image_path
 os.system(image_preview)        
-print "\n"
+print("\n")
 
 
 def wiki(celestial_object):
     ans = celestial_object
     cwd = os.getcwd()
-    with open(os.path.join(cwd, 'display_info.yaml'), 'r') as stream:
+    with open(os.path.join(cwd, 'display_info.yml'), 'r') as stream:
         all_display_statistics = load(stream)
 
     req_statistics = all_display_statistics.get(ans, {})
@@ -64,8 +64,8 @@ def wiki(celestial_object):
         print(wikipedia.WikipediaPage(title='{} (planet)'.format(ans)).summary)
     return " "
 
-print wiki(celestial_object)
+print(wiki(celestial_object))
 print("------------------------------------------------------ \n")
-ans = raw_input("Want to know more about this image? y/n \n")
+ans = input("Want to know more about this image? y/n \n")
 if ans.rstrip() is "y":
 	Popen(["python", "reverse-image-search.py", image_path])
