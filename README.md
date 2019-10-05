@@ -18,7 +18,11 @@ Activate the virtual environment using a shell-specific command:
 
 Install Tensorflow
 
-`pip install tensorflow`   
+`pip install tensorflow==1.14`  
+
+Install wikipedia
+
+`pip install wikipedia` 
  
 #### Inception
 
