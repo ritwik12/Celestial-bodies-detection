@@ -10,19 +10,21 @@ Python virtual environments are used to isolate package installation from the sy
 
 Create a new virtual environment by choosing a Python interpreter and making a ./venv directory to hold it:
 
-`virtualenv --system-site-packages -p python3 ./venv`
+```
+virtualenv --system-site-packages -p python3 ./venv
+```
 
 Activate the virtual environment using a shell-specific command:
 
-`source ./venv/bin/activate  # sh, bash, ksh, or zsh`
+```
+source ./venv/bin/activate  # sh, bash, ksh, or zsh
+```
 
-Install Tensorflow
+Install the modules used in the project:
+```
+pip install -r requirements.py
+```  
 
-`pip install tensorflow==1.14`  
-
-Install wikipedia
-
-`pip install wikipedia` 
  
 #### Inception
 
@@ -68,13 +70,15 @@ Downloaded automatically while training
 
 ## Train model
 
-`python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
-`
+```
+python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
+```
 
 ## Test model
 
-`python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
-`
+```
+python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
+```
 
 ## INCEPTION
 
