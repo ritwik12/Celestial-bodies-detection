@@ -2,7 +2,7 @@ import tensorflow as tf, sys
 from subprocess import Popen
 import os
 import wikipedia
-from yaml import load
+from yaml import load, SafeLoader
 
 image_path = sys.argv[1]
 
@@ -44,7 +44,7 @@ def wiki(celestial_object):
     ans = celestial_object
     cwd = os.getcwd()
     with open(os.path.join(cwd, 'display_info.yml'), 'r') as stream:
-        all_display_statistics = load(stream)
+        all_display_statistics = load(stream, Loader=SafeLoader)
 
     req_statistics = all_display_statistics.get(ans, {})
 
