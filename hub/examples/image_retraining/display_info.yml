@@ -61,3 +61,10 @@ neptune:
   Rotation Period: 16 hours, 7 mins
   Revolution Period: 164.8 years
   Known No. of Moons: 14
+
+moon:
+  Average Distance from the sun: 150,000,000 km
+  Diameter: 3474,2 km
+  Surface Composition: Terrestrial
+  Rotation Period: 27.3 days
+  Revolution (around Earth) Period: 27.3 days
