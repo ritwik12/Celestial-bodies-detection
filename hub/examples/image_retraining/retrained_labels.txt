@@ -1,4 +1,6 @@
+moon
 mercury
+comets
 spiral
 venus
 saturn
