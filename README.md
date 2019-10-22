@@ -23,6 +23,10 @@ Install Tensorflow
 Install wikipedia
 
 `pip install wikipedia` 
+
+Install PyYAML
+
+`pip install PyYAML`
  
 #### Inception
 
