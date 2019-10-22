@@ -74,5 +74,5 @@ def wiki(celestial_object):
 print(wiki(celestial_object))
 print("------------------------------------------------------ \n")
 ans = input("Want to know more about this image? y/n \n")
-if ans.rstrip() is "y":
+if ans.rstrip() == "y":
 	Popen(["python", "reverse-image-search.py", image_path])
