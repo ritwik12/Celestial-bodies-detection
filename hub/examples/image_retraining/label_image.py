@@ -2,7 +2,7 @@ import tensorflow as tf, sys
 from subprocess import Popen
 import os
 import wikipedia
-from yaml import load
+from yaml import load, SafeLoader
 
 image_path = sys.argv[1]
 
@@ -44,7 +44,7 @@ def wiki(celestial_object):
     ans = celestial_object
     cwd = os.getcwd()
     with open(os.path.join(cwd, 'display_info.yml'), 'r') as stream:
-        all_display_statistics = load(stream)
+        all_display_statistics = load(stream, Loader=SafeLoader)
 
     req_statistics = all_display_statistics.get(ans, {})
 
@@ -62,6 +62,13 @@ def wiki(celestial_object):
         print("{}\n\n".format(statistics))
         # print(wikipedia.summary("Mercury (planet)", sentences=2))
         print(wikipedia.WikipediaPage(title='{} (planet)'.format(ans)).summary)
+    elif ans == 'moon':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format(ans)).summary)
     return " "
 
 print(wiki(celestial_object))
