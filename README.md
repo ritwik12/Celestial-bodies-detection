@@ -23,6 +23,10 @@ Install Tensorflow
 Install wikipedia
 
 `pip install wikipedia` 
+
+Install PyYAML
+
+`pip install PyYAML`
  
 #### Inception
 
@@ -73,8 +77,7 @@ Downloaded automatically while training
 
 ## Test model
 
-`python /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/label_image.py /home/ritwik/git/celestial_body_detection/hub/examples/image_retraining/test_data/uranus.jpg
-`
+`python label_image.py test_data/uranus.jpg`
 
 ## INCEPTION
 
