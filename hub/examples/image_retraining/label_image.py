@@ -69,6 +69,11 @@ def wiki(celestial_object):
         statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
         print("{}\n\n".format(statistics))
         print(wikipedia.WikipediaPage(title='{}'.format(ans)).summary)
+    elif ans == 'irregular':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is {} Galaxy : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        print(wikipedia.WikipediaPage(title='{}'.format(ans)).summary)
     return " "
 
 print(wiki(celestial_object))
