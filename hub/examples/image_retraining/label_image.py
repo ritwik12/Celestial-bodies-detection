@@ -73,8 +73,8 @@ def wiki(celestial_object):
         print("--------------------------------------------------------")
         print("Classified Celestial Object is a {} : ".format(ans.capitalize()[:-1]))
         print("-------------------------------------------------------- \n")
-        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
-        print("{}\n\n".format(statistics))
+        #statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        #print("{}\n\n".format(statistics))
         print(wikipedia.WikipediaPage(title='{}'.format(ans)).summary)
     return " "
 
