@@ -16,6 +16,10 @@ Activate the virtual environment using a shell-specific command:
 
 `source ./venv/bin/activate  # sh, bash, ksh, or zsh`
 
+If using conda, you can run
+    `conda create -n tensorflow python=3.7`
+    `source activate tensorflow`
+
 Install Tensorflow
 
 `pip install tensorflow==1.14`  
