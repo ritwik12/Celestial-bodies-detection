@@ -12,7 +12,7 @@ for folderName, subfolders, filenames in os.walk('.\\training_data'):
 		absWorkingDir = os.path.abspath('C:\\dev_projects\\contributions\\Celestial-bodies-detection\\hub\\examples\\image_retraining')
 		print(absWorkingDir)
 		src = os.path.join(absWorkingDir, folderName, filename)
-		dst = os.path.join(absWorkingDir, 'new_training_data', str(i)) + '.jpg'
+		dst = os.path.join(absWorkingDir, folderName, str(i)) + '.jpg'
 		print('Renaming "%s" to "%s"...' % (src, dst))
 		shutil.move(src, dst)
 		i += 1
