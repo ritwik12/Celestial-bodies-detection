@@ -1,4 +1,4 @@
-import tensorflow.compat.v1 as tf,sys
+import tensorflow as tf,sys
 from subprocess import Popen
 import os
 import wikipedia
@@ -14,12 +14,12 @@ label_lines = [line.rstrip() for line in tf.io.gfile.GFile("./retrained_labels.t
 
 # Unpersists graph from file
 with tf.io.gfile.GFile("./retrained_graph.pb", 'rb') as f:
-    graph_def = tf.GraphDef()
+    graph_def = tf.compat.v1.GraphDef()
     graph_def.ParseFromString(f.read())
     _ = tf.import_graph_def(graph_def, name='')
     
 # Feed the image_data as input to the graph and get first prediction
-with tf.Session() as sess:
+with tf.compat.v1.Session() as sess:
     softmax_tensor = sess.graph.get_tensor_by_name('final_result:0')
     predictions = sess.run(softmax_tensor, {'DecodeJpeg/contents:0': image_data})
     # Sort to show labels of first prediction in order of confidence
