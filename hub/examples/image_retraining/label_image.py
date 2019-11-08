@@ -1,4 +1,3 @@
-# import tensorflow as tf, sys
 import tensorflow.compat.v1 as tf,sys
 from subprocess import Popen
 import os
