@@ -103,6 +103,14 @@ An astronomical object or celestial object is a naturally occurring physical ent
 
 Examples of astronomical objects include planetary systems, star clusters, nebulae, and galaxies, while asteroids, moons, planets, and stars are astronomical bodies. A comet may be identified as both body and object: It is a body when referring to the frozen nucleus of ice and dust, and an object when describing the entire comet with its diffuse coma and tail.
 
+### ASTEROIDS
+
+Asteroids are minor planets, especially of the inner Solar System. Larger asteroids have also been called planetoids. These terms have historically been applied to any astronomical object orbiting the Sun that did not resolve into a disc in a telescope and was not observed to have characteristics of an active comet such as a tail. As minor planets in the outer Solar System were discovered that were found to have volatile-rich surfaces similar to comets, these came to be distinguished from the objects found in the main asteroid belt.(https://en.wikipedia.org/wiki/Asteroid)
+
+* **16 Psyche:** One of the most intriguing targets in the main asteroid belt, 16 Psyche is a giant metal asteroid, about three times farther away from the sun than is the Earth. Its average diameter is about 140 miles (226 kilometers) — about one-sixteenth the diameter of Earth’s Moon or about the distance between Los Angeles and San Diego. Unlike most other asteroids that are rocky or icy bodies, scientists think the M-type (metallic) asteroid 16 Psyche is comprised mostly of metallic iron and nickel similar to Earth’s core. Scientists wonder whether Psyche could be an exposed core of an early planet, maybe as large as Mars, that lost its rocky outer layers due to a number of violent collisions billions of years ago.(nasa.gov)
+
+![16 Psyche](https://solarsystem.nasa.gov/system/content_pages/main_images/416_16_psyche_main.jpg)
+
 ### GALAXIES
 A galaxy is an enormous collection of interstellar dust, gas, stellar remnant, stars along with their own solar systems held together by gravity. Earth is situated in the Milky Way galaxy. The Milky Way is a spiral-shaped galaxy with a diameter ranging 100,000 and 180,000 light-years. Our galaxy was thought to contain all the stars in the universe until, in 1920, Edwin Hubble observed that the Milky Way is one of many galaxies in the universe and that every galaxy contains potentially billions or trillions of stars. To this day, only a small fraction of galaxies have been discovered. 
 
