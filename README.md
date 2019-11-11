@@ -119,6 +119,10 @@ Asteroids are minor planets, especially of the inner Solar System. Larger astero
 
 ![101955 Bennu](https://solarsystem.nasa.gov/system/feature_items/images/455_20181029t1019ut_bennu_800.jpg)
 
+* **243 Ida:** Ida is the first asteroid found to have its own moon and the second to be visited by a spacecraft.Located in the main belt between Mars and Jupyter, Ida is one of the Kornis family of asteroids. An S-type asteroid, Ida is composed of mainly silicate rock.   (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/243-ida/in-depth/)
+
+![243 Ida](https://solarsystem.nasa.gov/system/content_pages/main_images/417_Ida_Dactyl_main.jpg)
+
 ### GALAXIES
 A galaxy is an enormous collection of interstellar dust, gas, stellar remnant, stars along with their own solar systems held together by gravity. Earth is situated in the Milky Way galaxy. The Milky Way is a spiral-shaped galaxy with a diameter ranging 100,000 and 180,000 light-years. Our galaxy was thought to contain all the stars in the universe until, in 1920, Edwin Hubble observed that the Milky Way is one of many galaxies in the universe and that every galaxy contains potentially billions or trillions of stars. To this day, only a small fraction of galaxies have been discovered. 
 
