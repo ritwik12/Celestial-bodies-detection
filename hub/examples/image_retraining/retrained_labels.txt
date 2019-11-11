@@ -5,6 +5,7 @@ mars
 ida
 mathilde
 jupiter
+eros
 chariklo
 spiral
 bennu

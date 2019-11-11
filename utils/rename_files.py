@@ -1,3 +1,4 @@
+
 #! python3
 # rename_files.py - Will be used to rename all training data image files
 # that are being used for a TensorFlow Celestial Body image classifier
@@ -16,3 +17,4 @@ for folderName, subfolders, filenames in os.walk('.\\training_data'):
 		print('Renaming "%s" to "%s"...' % (src, dst))
 		shutil.move(src, dst)
 		i += 1
+
