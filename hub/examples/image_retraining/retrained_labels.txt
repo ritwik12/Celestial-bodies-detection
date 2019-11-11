@@ -6,6 +6,7 @@ ida
 mathilde
 jupiter
 eros
+vesta
 chariklo
 spiral
 bennu

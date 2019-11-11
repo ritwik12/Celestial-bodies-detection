@@ -118,6 +118,13 @@ def wiki(celestial_object):
         statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
         print("{}\n\n".format(statistics))
         print(wikipedia.WikipediaPage(title='{}'.format("433_"+(ans.capitalize()))).summary)
+    elif ans == 'vesta':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("4_"+(ans.capitalize()))).summary)
     return " "
 
 print(wiki(celestial_object))
