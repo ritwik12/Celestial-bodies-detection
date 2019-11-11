@@ -115,9 +115,9 @@ Asteroids are minor planets, especially of the inner Solar System. Larger astero
 
 ![10199 Chariklo](https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg)
 
-* **101955 Bennu:** Bennu is estimated to be more than 4.5 Billion years old. Scientist think that it mayt contain organic molecules similar to that of which life on Earth sprouted from. Bennu is known as a potentially hazardous asteroid with a 1-ini-2,700 chance of impacting Earth during its close approach in the late 22nd century. (https://solarsystem.nasa.gov/system/feature_items/images/455_20181029t1019ut_bennu_800.jpg)
+* **101955 Bennu:** Bennu is estimated to be more than 4.5 Billion years old. Scientist think that it mayt contain organic molecules similar to that of which life on Earth sprouted from. Bennu is known as a potentially hazardous asteroid with a 1-ini-2,700 chance of impacting Earth during its close approach in the late 22nd century. (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/101955-bennu/overview/)
 
-![10199 Chariklo](https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg)
+![101955 Bennu](https://solarsystem.nasa.gov/system/feature_items/images/455_20181029t1019ut_bennu_800.jpg)
 
 ### GALAXIES
 A galaxy is an enormous collection of interstellar dust, gas, stellar remnant, stars along with their own solar systems held together by gravity. Earth is situated in the Milky Way galaxy. The Milky Way is a spiral-shaped galaxy with a diameter ranging 100,000 and 180,000 light-years. Our galaxy was thought to contain all the stars in the universe until, in 1920, Edwin Hubble observed that the Milky Way is one of many galaxies in the universe and that every galaxy contains potentially billions or trillions of stars. To this day, only a small fraction of galaxies have been discovered. 
