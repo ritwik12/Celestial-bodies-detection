@@ -103,6 +103,42 @@ An astronomical object or celestial object is a naturally occurring physical ent
 
 Examples of astronomical objects include planetary systems, star clusters, nebulae, and galaxies, while asteroids, moons, planets, and stars are astronomical bodies. A comet may be identified as both body and object: It is a body when referring to the frozen nucleus of ice and dust, and an object when describing the entire comet with its diffuse coma and tail.
 
+### ASTEROIDS
+
+Asteroids are minor planets, especially of the inner Solar System. Larger asteroids have also been called planetoids. These terms have historically been applied to any astronomical object orbiting the Sun that did not resolve into a disc in a telescope and was not observed to have characteristics of an active comet such as a tail. As minor planets in the outer Solar System were discovered that were found to have volatile-rich surfaces similar to comets, these came to be distinguished from the objects found in the main asteroid belt.(https://en.wikipedia.org/wiki/Asteroid)
+
+* **16 Psyche:** 16 Psyche is a giant metal asteroid, about three times farther away from the sun than is the Earth. Its average diameter is about 140 miles. Unlike most other asteroids that are rocky or icy bodies, scientists think the M-type (metallic) asteroid 16 Psyche is comprised mostly of metallic iron and nickel similar to Earth’s core. Scientists wonder whether Psyche could be an exposed core of an early planet, maybe as large as Mars, that lost its rocky outer layers due to a number of violent collisions billions of years ago.(https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/16-psyche/in-depth/)
+
+![16 Psyche](https://solarsystem.nasa.gov/system/content_pages/main_images/416_16_psyche_main.jpg)
+
+* **10199 Chariklo:** Chariklo was one fo the first asteroids found in our solar system to have a ring system.With a diameter of about 188 miles, Chariklo is one of the largest memebrs of the asteroid class known as Centaurs.Its orbit is located between Saturn and Uranus in the outer solar system.(https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/10199-chariklo/in-depth/)
+
+![10199 Chariklo](https://solarsystem.nasa.gov/system/content_pages/main_images/411_10199_chariklo_main.jpg)
+
+* **101955 Bennu:** Bennu is estimated to be more than 4.5 Billion years old. Scientist think that it mayt contain organic molecules similar to that of which life on Earth sprouted from. Bennu is known as a potentially hazardous asteroid with a 1-ini-2,700 chance of impacting Earth during its close approach in the late 22nd century. (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/101955-bennu/overview/)
+
+![101955 Bennu](https://solarsystem.nasa.gov/system/feature_items/images/455_20181029t1019ut_bennu_800.jpg)
+
+* **243 Ida:** Ida is the first asteroid found to have its own moon and the second to be visited by a spacecraft.Located in the main belt between Mars and Jupyter, Ida is one of the Kornis family of asteroids. An S-type asteroid, Ida is composed of mainly silicate rock.   (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/243-ida/in-depth/)
+
+![243 Ida](https://solarsystem.nasa.gov/system/content_pages/main_images/417_Ida_Dactyl_main.jpg)
+
+* **25143 Itokawa:** Itokawa is the first asteroid to have samples captured and brought back to earth. The samples delivered by the Japanese spacecraft Hyabusa revealed that this asteroid was once part of a larger object. Few craters are visible on its surface, presumably becouse any impact is quickly filled by the loose rocks and dust on its surface.  (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/25143-itokawa/in-depth/)
+
+![25143 Itokawa](https://solarsystem.nasa.gov/system/content_pages/main_images/425_itokawa_main.jpg)
+
+* **253 Matilde:** 253 Mathilde is an asteroid in the main belt between Mars and Jupiter, where it orbits the Sun once every 4.3 years. It's about 52 kilometers across, and notable for its very slow rotation rate--it takes 17.4 days for the asteroid to turn on its axis.Mathilde is a C-type asteroid, which means that it is made of rock rich in carbon, and is probably very little changed in the last 4.5 billion years, a time capsule from the time the planets first formed. All that carbon helps make Mathilde one of the darkest objects in the Solar System. It reflects only 4 percent of the light falling on it.  (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/253-mathilde/in-depth/)
+
+![253 Matilde](https://solarsystem.nasa.gov/system/content_pages/main_images/427_Mathilde1_main.jpg)
+
+* **433 Eros:** 433 Eros
+
+433 Eros was discovered on Aug. 13, 1898 by Gustav Witt, director of the Urania observatory in Berlin, and independently on the same day by Auguste H.P. Charlois at Nice, France.Witt's discovery was the accidental byproduct of a two-hour photographic exposure he conducted of a different asteroid: 185 Eunike. Along with Eunike, the image he produced showed a 0.4-mm image trail, and observations on the following evening identified the object as one of unusually high apparent motion on the sky. Less than two weeks later, Adolf J. Berberich computed that the object's orbit brought it well inside the orbit of Mars, making it the first-known near-Earth asteroid.
+
+ (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/433-eros/in-depth/)
+
+![433 Eros](https://solarsystem.nasa.gov/system/content_pages/main_images/454_Eros_main.jpg)
+
 ### GALAXIES
 A galaxy is an enormous collection of interstellar dust, gas, stellar remnant, stars along with their own solar systems held together by gravity. Earth is situated in the Milky Way galaxy. The Milky Way is a spiral-shaped galaxy with a diameter ranging 100,000 and 180,000 light-years. Our galaxy was thought to contain all the stars in the universe until, in 1920, Edwin Hubble observed that the Milky Way is one of many galaxies in the universe and that every galaxy contains potentially billions or trillions of stars. To this day, only a small fraction of galaxies have been discovered. 
 
