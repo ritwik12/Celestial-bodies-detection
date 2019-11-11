@@ -123,6 +123,22 @@ Asteroids are minor planets, especially of the inner Solar System. Larger astero
 
 ![243 Ida](https://solarsystem.nasa.gov/system/content_pages/main_images/417_Ida_Dactyl_main.jpg)
 
+* **25143 Itokawa:** Itokawa is the first asteroid to have samples captured and brought back to earth. The samples delivered by the Japanese spacecraft Hyabusa revealed that this asteroid was once part of a larger object. Few craters are visible on its surface, presumably becouse any impact is quickly filled by the loose rocks and dust on its surface.  (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/25143-itokawa/in-depth/)
+
+![25143 Itokawa](https://solarsystem.nasa.gov/system/content_pages/main_images/425_itokawa_main.jpg)
+
+* **253 Matilde:** 253 Mathilde is an asteroid in the main belt between Mars and Jupiter, where it orbits the Sun once every 4.3 years. It's about 52 kilometers across, and notable for its very slow rotation rate--it takes 17.4 days for the asteroid to turn on its axis.Mathilde is a C-type asteroid, which means that it is made of rock rich in carbon, and is probably very little changed in the last 4.5 billion years, a time capsule from the time the planets first formed. All that carbon helps make Mathilde one of the darkest objects in the Solar System. It reflects only 4 percent of the light falling on it.  (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/253-mathilde/in-depth/)
+
+![253 Matilde](https://solarsystem.nasa.gov/system/content_pages/main_images/427_Mathilde1_main.jpg)
+
+* **433 Eros:** 433 Eros
+
+433 Eros was discovered on Aug. 13, 1898 by Gustav Witt, director of the Urania observatory in Berlin, and independently on the same day by Auguste H.P. Charlois at Nice, France.Witt's discovery was the accidental byproduct of a two-hour photographic exposure he conducted of a different asteroid: 185 Eunike. Along with Eunike, the image he produced showed a 0.4-mm image trail, and observations on the following evening identified the object as one of unusually high apparent motion on the sky. Less than two weeks later, Adolf J. Berberich computed that the object's orbit brought it well inside the orbit of Mars, making it the first-known near-Earth asteroid.
+
+ (https://solarsystem.nasa.gov/asteroids-comets-and-meteors/asteroids/433-eros/in-depth/)
+
+![433 Eros](https://solarsystem.nasa.gov/system/content_pages/main_images/454_Eros_main.jpg)
+
 ### GALAXIES
 A galaxy is an enormous collection of interstellar dust, gas, stellar remnant, stars along with their own solar systems held together by gravity. Earth is situated in the Milky Way galaxy. The Milky Way is a spiral-shaped galaxy with a diameter ranging 100,000 and 180,000 light-years. Our galaxy was thought to contain all the stars in the universe until, in 1920, Edwin Hubble observed that the Milky Way is one of many galaxies in the universe and that every galaxy contains potentially billions or trillions of stars. To this day, only a small fraction of galaxies have been discovered. 
 
