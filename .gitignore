@@ -1,4 +1,5 @@
 *.pyc
+.vscode/
 /hub/examples/image_retraining/inception
 /hub/examples/image_retraining/retrained_graph.pb
 /hub/examples/image_retraining/training_summaries/
