@@ -5,7 +5,7 @@
 import os, shutil
 
 # Walk the directory tree to locate folder, subfolder, and filenames
-for folderName, subfolders, filenames in os.walk('.\\training_data'):
+for folderName, subfolders, filenames in os.walk('C:\\dev_projects\\contributions\\Celestial-bodies-detection\\hub\\examples\\image_retraining\\test_data'):
 	print('The current folder is ' + folderName)
 	i = 0
 	for filename in filenames:
