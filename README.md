@@ -20,6 +20,11 @@ If using conda, you can run
     `conda create -n tensorflow python=3.7`
     `source activate tensorflow`
 
+#### Install Requirements
+`pip install -r requirements.txt`
+
+OR
+
 Install Tensorflow
 
 `pip install tensorflow==1.14`  
