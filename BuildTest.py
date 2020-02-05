@@ -10,7 +10,7 @@ class BuildTest:
         testing_percentage = 10
         validation_percentage = 10
 
-        list_of_images = create_image_lists(self.image_dir, testing_percentage, validation_percentage)
+        list_of_images = create_image_lists(image_dir, testing_percentage, validation_percentage)
         count_value = len(list_of_images.keys())
         assert count_value > 1
     
