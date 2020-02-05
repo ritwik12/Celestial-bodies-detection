@@ -5,4 +5,4 @@ before_install:
 - python --version
 - pip install -U pip
 install: pip install -r requirements.txt
-script: pytest tests/BuildTest.py --image_dir=training_data
+script: pytest tests/test_build.py --image_dir=training_data
