@@ -8,3 +8,8 @@ elliptical
 earth
 venus
 saturn
+nebula
+moon
+stars
+supernova
+cluster of galaxies
