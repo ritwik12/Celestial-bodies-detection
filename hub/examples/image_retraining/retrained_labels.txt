@@ -1,15 +1,15 @@
 mercury
-mars
+nebula
+venus
+moon
 neptune
 spiral
-jupiter
-uranus
-elliptical
-earth
-venus
-saturn
-nebula
-moon
 stars
 supernova
+saturn
+jupiter
+elliptical
+earth
+uranus
 cluster of galaxies
+mars
