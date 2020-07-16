@@ -4,3 +4,4 @@
 /hub/examples/image_retraining/retrained_graph.pb
 /hub/examples/image_retraining/training_summaries/
 /hub/examples/image_retraining/venv/
+/hub/examples/image_retraining/bottlenecks/
