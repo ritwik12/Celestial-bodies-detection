@@ -62,7 +62,7 @@ def wiki(celestial_object):
         print("{}\n\n".format(statistics))
         # print(wikipedia.summary("Mercury (planet)", sentences=2))
         print(wikipedia.WikipediaPage(title='{} (planet)'.format(ans)).summary)
-    elif ans == 'moon':
+    elif ans in ['moon', 'stars', 'nebula', 'supernova', 'cluster_of_galaxies']:
         print("--------------------------------------------------------")
         print("Classified Celestial Object is the {} : ".format(ans.capitalize()))
         print("-------------------------------------------------------- \n")
