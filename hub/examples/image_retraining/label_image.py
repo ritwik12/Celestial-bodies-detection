@@ -69,10 +69,66 @@ def wiki(celestial_object):
         statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
         print("{}\n\n".format(statistics))
         print(wikipedia.WikipediaPage(title='{}'.format(ans)).summary)
+    elif ans == 'bennu':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("101955_"+(ans.capitalize()))).summary)
+    elif ans == 'chariklo':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("10199_"+(ans.capitalize()))).summary)
+    elif ans == 'psyche':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("16_"+(ans.capitalize()))).summary)
+    elif ans == 'ida':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("243_"+(ans.capitalize()))).summary)
+    elif ans == 'itokawa':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("25143_"+(ans.capitalize()))).summary)
+    elif ans == 'mathilde':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("253_"+(ans.capitalize()))).summary)
+    elif ans == 'eros':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("433_"+(ans.capitalize()))).summary)
+    elif ans == 'vesta':
+        print("--------------------------------------------------------")
+        print("Classified Celestial Object is the {} Asteroid : ".format(ans.capitalize()))
+        print("-------------------------------------------------------- \n")
+        statistics = "\n".join(['-- {}: {}'.format(parameter, value) for parameter, value in req_statistics.items()])
+        print("{}\n\n".format(statistics))
+        print(wikipedia.WikipediaPage(title='{}'.format("4_"+(ans.capitalize()))).summary)
     return " "
 
 print(wiki(celestial_object))
 print("------------------------------------------------------ \n")
 ans = input("Want to know more about this image? y/n \n")
-if ans.rstrip() == "y":
+if ans.rstrip().lower() == "y":
 	Popen(["python", "reverse-image-search.py", image_path])
