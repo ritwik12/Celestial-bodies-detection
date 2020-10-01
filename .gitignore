@@ -5,3 +5,4 @@
 /hub/examples/image_retraining/training_summaries/
 /hub/examples/image_retraining/venv/
 /hub/examples/image_retraining/bottlenecks/
+*.DS_Store
