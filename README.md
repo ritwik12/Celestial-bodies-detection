@@ -21,6 +21,8 @@ If using conda, you can run
     `source activate tensorflow`
 
 #### Install Requirements
+Move to the image_training directory: `cd /hub/examples/image_retraining`
+
 `pip install -r requirements.txt`
 
 OR
@@ -84,9 +86,12 @@ Downloaded automatically while training
 `python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
 `
 
-## Test model
+## Evaluate model
+All trained files are including in the Repository and model can be evaluated without training too using:
 
-`python label_image.py test_data/uranus.jpg`
+`python label_image.py test_data/uranus/000.jpg`
+
+or any other test image from test_data/. You can add your own images to be evalauted with Model for Classification.
 
 ## INCEPTION
 
