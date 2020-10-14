@@ -1,5 +1,7 @@
 # Celestial-bodies-detection
 
+[![Build Status](https://travis-ci.com/ritwik12/Celestial-bodies-detection.svg?branch=master)](https://travis-ci.com/ritwik12/Celestial-bodies-detection)
+
 ## Setup
 
 #### Tensorflow

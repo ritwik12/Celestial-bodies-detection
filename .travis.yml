@@ -4,5 +4,8 @@ python:
 before_install: 
 - python --version
 - pip install -U pip
+- pip install flake8
 install: pip install -r requirements.txt
-script: pytest tests/test_build.py --image_dir=./hub/examples/image_retraining/training_data
+script: 
+- pytest tests/test_build.py --image_dir=./hub/examples/image_retraining/training_data
+- flake8 . --exit-zero

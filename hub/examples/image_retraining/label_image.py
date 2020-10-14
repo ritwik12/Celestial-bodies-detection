@@ -1,4 +1,4 @@
-import tensorflow as tf,sys
+import tensorflow as tf, sys
 from subprocess import Popen
 import os
 import wikipedia
@@ -33,7 +33,7 @@ with tf.compat.v1.Session() as sess:
         print("--------------------------------------------------------")
 # Get the predicted celestial object after classification
 celestial_object = label_lines[top_k[0]]
-#Popen(["python", "wiki.py"])
+# Popen(["python", "wiki.py"])
 
 image_preview="display "+image_path
 os.system(image_preview)        
