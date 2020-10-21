@@ -198,6 +198,18 @@ though, that makes it a much brighter blue than Uranus.
 
 ![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
 
+## Using Webapp
+#### Install
+`pip install -r requirements.txt`
+#### Run
+`python run.py`
+#### Details
+* The webapp is made using Flask, the `static` files (css, js, img), `templates` and `views.py` are in the `/app/` directory.
+* There are four endpoints 
+  * `/` - Home page. Here the user will select image to upload or enter the url.
+  *  `/result` - Results after processing. Shows the image, labels, wiki.
+  *  `/redirectToGoogle` - Redirects to google image search.
+  *  `/about` - About the project.
 # License
 
 ritwik12/Celestial-bodies-detection is licensed under the GNU General Public License v3.0

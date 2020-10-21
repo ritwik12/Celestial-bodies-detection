@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block main %}
+
+<div class="row m-0 h-100 w-100 align-items-center">
+	<div class="col">
+		<div class="row">
+		</div>
+
+		<div class="col-12 d-flex justify-content-center mb-4">
+			<h1>About This Project</h1>
+		</div>
+		<div class="col-12 d-flex justify-content-center mb-3 text-center">
+			<h4 id="aboutProject">
+			</h4>
+		</div>
+		<div class="col-12 d-flex justify-content-center mb-4">
+			<a href="https://github.com/ritwik12/Celestial-bodies-detection" target="_blank" class="custom-button px-4">
+				<span class="fa fa-github"></span>
+				View on Github
+			</a>
+		</div>
+		<div class="col-12 d-flex justify-content-center mb-2">
+			<h3 id="num_contributors">
+
+			</h3>
+		</div>
+		<div class="col-12 d-flex justify-content-center mb-2">
+			<div id="contributors" class="text-center">
+
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+	// send request for project description
+	console.log("yp");
+	var request = new XMLHttpRequest();
+	request.open('GET', 'https://api.github.com/repos/ritwik12/Celestial-bodies-detection');
+	request.send();
+	// set description
+	request.onload = async function () {
+		var data = JSON.parse(this.response);
+		console.log(data.description);
+		document.getElementById('aboutProject').innerHTML = data.description;
+	}
+
+	// //get contributors
+	// request = new XMLHttpRequest();
+	// request.open('GET', 'https://api.github.com/repos/ritwik12/Celestial-bodies-detection/contributors');
+	// request.send();
+	// request.onload = async function () {
+	// 	var data = JSON.parse(this.response);
+	// 	console.log(data);
+	// 	var ih = "";
+	// 	// var num=0;
+	// 	data.forEach(element => {
+	// 		if (!element.login.includes("bot")) {
+	// 			// num++;
+	// 			ih = ih.concat("<a href=\"", element.html_url, "\" target=\"_blank\">", element.login, "</a>");
+	// 		}
+	// 	});
+	// 	document.getElementById('num_contributors').innerHTML = "Contributors";
+	// 	document.getElementById('contributors').innerHTML = ih;
+	// }
+</script>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block main %}
+
+<div class="container-fluid h-100 p-0">
+  
+  <div class="row h-100 w-100 align-items-center m-0">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <h1 class="d-block">Error</h1>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+          <p class="d-block">{{detail}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
