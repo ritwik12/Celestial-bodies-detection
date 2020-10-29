@@ -155,7 +155,7 @@ There are a total of 8 planets in our solar system:
 
 ![mercury](https://user-images.githubusercontent.com/20038775/51534561-16d6fc00-1e6c-11e9-8e7b-1859f81f6213.jpg)
 
-* **Venus:** is the third planet from the sun and the hottest planet in the solar system. [Venus](https://en.wikipedia.org/wiki/Venus) primarily consists of carbon dioxide which makes the planet toxic. The atmospheric pressure of Venus is capable of crushing anyone who landed on its surface. Venus can be seen by the naked eye from Earth. Thick clouds shroud Venus, making it difficult to see the details of the planet's surface. 
+* **Venus:** is the second planet from the sun. [Venus](https://en.wikipedia.org/wiki/Venus) primarily consists of carbon dioxide which makes the planet toxic. The atmospheric pressure of Venus is capable of crushing anyone who landed on its surface. Venus can be seen by the naked eye from Earth. Thick clouds shroud Venus, making it difficult to see the details of the planet's surface. 
 
 ![venus](https://user-images.githubusercontent.com/20038775/51534566-18082900-1e6c-11e9-9756-2a90522b5b0a.jpg)
 
@@ -197,6 +197,20 @@ contributes to its blue color. It is believed there is a second "unknown" elemen
 though, that makes it a much brighter blue than Uranus.
 
 ![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
+
+### MOONS
+
+A natural satellite, or moon, is, in the most common usage, an astronomical body that orbits a planet or minor planet (or sometimes another small Solar System body).
+
+* **Earth's moon:**  is a gravity rounded astronomical body orbiting the Earth and is the planet's only natural satellite. The Moon is thought to have formed about 4.51 billion years ago, not long after Earth. The Moon is in synchronous rotation with Earth, and thus always shows the same side to Earth, the near side. The Moon's average orbital distance is 384,402 km (238,856 mi),[16][17] or 1.28 light-seconds.
+
+![Earth's moon](https://user-images.githubusercontent.com/38387918/97514385-ed160780-1964-11eb-9c1b-3f47d8b59965.png)
+
+### ASTEROIDS
+
+Asteroids, sometimes called minor planets, are rocky, airless remnants left over from the early formation of our solar system about 4.6 billion years ago. Most of this ancient space rubble can be found orbiting the Sun between Mars and Jupiter within the main asteroid belt.
+
+![Asteroid](https://user-images.githubusercontent.com/38387918/97514956-564a4a80-1966-11eb-83b7-1dc6298579f6.png)
 
 # License
 
