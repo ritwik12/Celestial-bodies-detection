@@ -1,5 +1,5 @@
 pyyaml
-tensorflow==1.15.4
+tensorflow==2.5.0
 wikipedia
 flask
 flask-wtf

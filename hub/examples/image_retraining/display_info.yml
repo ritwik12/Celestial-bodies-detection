@@ -68,3 +68,9 @@ moon:
   Surface Composition: Terrestrial
   Rotation Period: 27.3 days
   Revolution (around Earth) Period: 27.3 days
+
+asteroids:
+  Belt: Asteroid Belt
+  Average Distance from the sun: 400,00,000 km
+  Diameter: 1cm - 950km
+  No. of Asteroids with diameter of 1 km or more: 700,000 - 1,700,000
