@@ -43,6 +43,20 @@ Install PyYAML
 
 Downloaded automatically while training
 
+## Using Webapp
+#### Run
+`python run.py`
+#### Details
+* The webapp is made using Flask, the `static` files (css, js, img), `templates` and `views.py` are in the `/app/` directory.
+* There are four endpoints:
+  * `/` - Home page. Here, the user will select image to upload or enter the url.
+  *  `/result` - Results after processing. Shows the image, labels, wiki.
+  *  `/redirectToGoogle` - Redirects to google image search.
+  *  `/about` - About the project.
+
+<img width="1678" alt="Screenshot 2021-07-02 at 3 54 51 PM" src="https://user-images.githubusercontent.com/20038775/124335620-b75a9b80-db4f-11eb-92cb-338952205276.png">
+<img width="1666" alt="Screenshot 2021-07-02 at 3 55 13 PM" src="https://user-images.githubusercontent.com/20038775/124335626-bb86b900-db4f-11eb-9e83-79b702a5d0a8.png">
+
 ## Using Model
 
 #### Classified Neptune Image and percentage of Accuracy
@@ -198,18 +212,6 @@ though, that makes it a much brighter blue than Uranus.
 
 ![neptune](https://user-images.githubusercontent.com/20038775/51534562-16d6fc00-1e6c-11e9-913a-39d91368573a.jpg)
 
-## Using Webapp
-#### Install
-`pip install -r requirements.txt`
-#### Run
-`python run.py`
-#### Details
-* The webapp is made using Flask, the `static` files (css, js, img), `templates` and `views.py` are in the `/app/` directory.
-* There are four endpoints 
-  * `/` - Home page. Here the user will select image to upload or enter the url.
-  *  `/result` - Results after processing. Shows the image, labels, wiki.
-  *  `/redirectToGoogle` - Redirects to google image search.
-  *  `/about` - About the project.
 ### MOONS
 
 A natural satellite, or moon, is, in the most common usage, an astronomical body that orbits a planet or minor planet (or sometimes another small Solar System body).
