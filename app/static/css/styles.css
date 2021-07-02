@@ -1,0 +1,225 @@
+html,body {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 5;
+}
+
+table {
+  max-width: 450px;
+}
+
+main {
+  position: absolute;
+  height: calc(100vh - 56px);
+  width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Background Animation */
+@-webkit-keyframes STAR-MOVE {
+  from {
+    left: 0;
+    top: 0;
+  }
+
+  to {
+    left: -10000px;
+    top: -2000px;
+  }
+}
+
+#background {
+  background: black url(../images/background.png) repeat 5% 5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* z-index: -3; */
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 200s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#midground {
+  background: url(../images/midground.png) repeat 20% 20%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* z-index: -2; */
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 150s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#foreground {
+  background: url(../images/foreground.png) repeat 35% 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* z-index::-1; */
+
+  -webkit-animation-name: STAR-MOVE;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* index */
+
+#image_url {
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+  outline: none;
+  border-radius: 10px;
+  height: 60px;
+  width: calc(min(100%, 450px));
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+#image_url:focus {
+  box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
+}
+
+#custom-file-upload {
+  width: calc(min(100%, 450px));
+}
+
+.custom-file-input {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+  width: 200px;
+}
+
+.custom-button {
+  background-color: transparent;
+  color: white;
+  border: 4px solid;
+  border-radius: 30px;
+  padding: 6px 50px;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-button:focus,
+.custom-button:active,
+.custom-button:hover {
+  outline: none;
+  box-shadow: 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.result-label {
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  padding: 6px 15px;
+  font-size: large;
+  font-weight: bold;
+  white-space: nowrap;
+  margin: 5px;
+}
+
+#file-label {
+  position: absolute;
+  top: 0;
+  right: calc(50% - 100px);
+  width: 200px;
+  padding: 6px 20px;
+  z-index: 5;
+}
+
+#imageName {
+  background-color: transparent;
+  color: white;
+  border: 2px solid;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: x-large;
+  font-weight: 500;
+  display: none;
+}
+
+.loader {
+  font-size: large;
+  font-weight: bold;
+  display: none;
+}
+
+#aboutProject {
+  width: calc(min(100%, 450px));
+}
+
+#image-section {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+#know_more a {
+  font-size: medium;
+  font-weight: bold;
+  padding: 3px 10px;
+  border-width: 2px;
+}
+
+#contributors a{
+  display: inline-block;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#contributors a:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,3 +1,6 @@
 pyyaml
 tensorflow==2.5.0
 wikipedia
+flask
+flask-wtf
+Pillow

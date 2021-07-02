@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Result{% endblock %}
+
+{% block main %}
+
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div id ="image-section" class="col-12 col-md-4 pb-4 px-0">
+      <img class="w-100" src="data:;base64,{{ image }}" />
+      <div class="container text-center pt-5">
+        {% for item in labels %}
+        {% if item[1]>0.001 %}
+        <p class="d-inline-block result-label">{{item[0]|capitalize}} {{item[1]|round(2)}}</p>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-12 col-md-8 h-md-100 overflow-auto">
+      <div class="container p-2 pt-5 pt-md-2">
+        <h1>{{title}}</h1>
+      </div>
+      {% if properties %}
+      <div class="container">
+        <table class="table table-dark mx-auto">
+            {% for prop in properties %}
+            <tr>
+              <td>{{prop[0]}}</td>
+              <td>{{prop[1]}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+      </div>
+      {% endif %}
+      <div class="container">
+        <p>{{description}}</p>
+      </div>
+      <div id="know_more" class="container mx-auto p-4 text-center">
+        <h6 class="d-inline-block">Do you want to know more?</h6>
+        <div class=" d-inline-block">
+          <a href="{{url_for('redirectToGoogle')}}" target="_blank" class="custom-button mx-2">Yes</a>
+          <a href="#" onclick="hide_know_more();" class="custom-button">No</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
+{% block script %}
+<script>
+  // bg wasn't coverng the whole screen without this
+  document.getElementsByTagName("main")[0].style.height='fit-content';
+</script>
+{% endblock %}

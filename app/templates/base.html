@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Import our custom stylesheet -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">Celestial Bodies Detection</a>
+
+        <div class="collapse navbar-collapse p-auto" id="navbarToggler">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <div id="background"></div>
+        <div id="foreground"></div>
+        <div id="midground"></div>
+        {% block main %}{% endblock %}
+    </main>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+    <!-- Import our custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    {% block script %}{% endblock %}
+</body>
+
+</html>
