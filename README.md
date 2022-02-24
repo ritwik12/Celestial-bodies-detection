@@ -1,5 +1,6 @@
-# Celestial-bodies-detection
+# [Celestial-bodies-detection](https://celestial-bodies-detection.herokuapp.com/)
 
+Visit [Site](https://celestial-bodies-detection.herokuapp.com/) to use the model.
 ## Setup
 
 #### Tensorflow
@@ -44,6 +45,8 @@ Install PyYAML
 Downloaded automatically while training
 
 ## Using Webapp
+Simple visit [site](https://celestial-bodies-detection.herokuapp.com/) or local deploy webapp with the help of instructions mentioned below:
+
 #### Run
 `python run.py`
 #### Details
