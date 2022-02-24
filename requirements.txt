@@ -4,3 +4,4 @@ wikipedia
 flask
 flask-wtf
 Pillow
+gunicorn
