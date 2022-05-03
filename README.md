@@ -223,6 +223,18 @@ A natural satellite, or moon, is, in the most common usage, an astronomical body
 
 ![Earth's moon](https://user-images.githubusercontent.com/38387918/97514385-ed160780-1964-11eb-9c1b-3f47d8b59965.png)
 
+* **Phobos:**  is much larger than Mars's other moon Deimos but is still relatively small and is irregularly shaped. Its fast rotation makes it appear to rise and set twice a day and has the least reflective surface in the solar system. It is strongly believed that in approximately 30 to 50 million years, it will cease to exist as it is being torn apart by tidal interactions from its parent object Mars.
+
+![Phobos](https://user-images.githubusercontent.com/92369126/166437763-9ec41f9f-fb0f-469f-b9f2-404449aad683.jpg)
+
+* **Ganymede:** is the largest satellite in our solar system, at approximately the size of Mercury, and would have been classified as a dwarf planet if not for its orbit around Jupiter. It is also one of the Galilean Moons and is third in line from the planet. Its core is comprised of both liquid iron and nickle which creates a magnetic field on the satellite. One interesting thing about Ganymede is that it's atmosphere has oxygen.
+
+![Ganymede](https://user-images.githubusercontent.com/92369126/166438481-bd37a9f6-d420-44a1-a1d1-185e659a8d90.png)
+
+* **Tethys:** having a similar large crater near it's Western hemisphere to Enceladus only not as pronounced, Tethys is Saturn's third satellite. It's surface is primarily water-ice and a small amount of rock, there appears to be a small amount of dark material as well but it has yet to be identified. Tethys has the lowest density of the "moons" in the solar system.
+
+![Tethys](https://user-images.githubusercontent.com/92369126/166438875-dc59e13c-034e-4415-9d99-b51412807584.jpg)
+
 ### ASTEROIDS
 
 Asteroids, sometimes called minor planets, are rocky, airless remnants left over from the early formation of our solar system about 4.6 billion years ago. Most of this ancient space rubble can be found orbiting the Sun between Mars and Jupiter within the main asteroid belt.
