@@ -74,3 +74,21 @@ asteroids:
   Average Distance from the sun: 400,00,000 km
   Diameter: 1cm - 950km
   No. of Asteroids with diameter of 1 km or more: 700,000 - 1,700,000
+
+tethys:
+  Satellite of: Saturn
+  Diameter: 1062 km
+  Surface Composition: Terrestrial
+  Revolution (around Saturn) Period: 45.3 hours
+
+phobos:
+  Satellite of: Mars
+  Diameter: 22,5 km
+  Surface Composition: Terrestrial
+  Revolution (around Mars) Period: 7 hours, 39 mins
+
+ganymede:
+  Satellite of: Jupiter
+  Diameter: 2634,1 km
+  Surface Composition: Terrestrial
+  Revolution (around Jupiter) Period: 7 days, 3 hours

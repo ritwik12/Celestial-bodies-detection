@@ -61,6 +61,14 @@ def wiki(celestial_object,cwd):
         statistics = req_statistics.items()
         summary = (wikipedia.WikipediaPage(title="{}".format(ans)).summary)
         title = ("Classified Celestial Object is the {} : ".format(ans.capitalize()))
+    elif ans in [
+        "phobos",
+        "tethys",
+        "ganymede"
+    ]:
+        statistics = req_statistics.items()       
+        summary = (wikipedia.WikipediaPage(title="{} (moon)".format(ans)).summary)
+        title = ("Classified Celestial Object is {} Moon : ".format(ans.capitalize()))
     return title,statistics,summary
 
 
