@@ -1,5 +1,5 @@
 pyyaml
-tensorflow-cpu==2.9.3
+tensorflow-cpu
 wikipedia
 flask
 flask-wtf
