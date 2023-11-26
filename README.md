@@ -3,6 +3,18 @@
 Visit [Site](https://celestial-bodies-detection.herokuapp.com/) to use the model.
 ## Setup
 
+#### Docker
+
+To build this project using Docker:
+```
+docker build . --tag celestial-bodies:latest
+```
+
+Run this project:
+```
+docker run -ti -p 5000:5000 celestial-bodies:latest
+```
+
 #### Tensorflow
     
 Create a virtual environment (recommended)
@@ -102,6 +114,11 @@ Simple visit [site](https://celestial-bodies-detection.herokuapp.com/) or local 
 
 `python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
 `
+
+To train using Docker:
+```
+docker run -ti -v $(pwd)/hub:/srv/hub -w /srv/hub/examples/image_retraining celestial-bodies:latest python retrain.py --bottleneck_dir=bottlenecks --how_many_training_steps=500 --model_dir=inception --summaries_dir=training_summaries/basic --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --image_dir=./training_data
+```
 
 ## Evaluate model
 All trained files are including in the Repository and model can be evaluated without training too using:
