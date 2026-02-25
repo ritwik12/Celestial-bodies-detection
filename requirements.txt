@@ -1,5 +1,5 @@
 pyyaml
-tensorflow-cpu
+tensorflow
 wikipedia
 flask
 flask-wtf

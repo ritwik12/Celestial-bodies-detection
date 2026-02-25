@@ -4,6 +4,10 @@ from base64 import b64encode
 
 import requests
 import tensorflow as tf
+
+if len(tf.config.list_physical_devices('GPU')) > 0:
+    print("Supported GPU Found, using GPU")
+
 from PIL import Image
 from flask import render_template, request, redirect, url_for
 from flask_wtf import FlaskForm

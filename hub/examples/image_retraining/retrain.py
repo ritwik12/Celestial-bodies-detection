@@ -83,6 +83,20 @@ from tensorflow.python.framework import tensor_shape
 from tensorflow.python.platform import gfile
 from tensorflow.python.util import compat
 
+physical_gpus = tf.config.list_physical_devices('GPU')
+if physical_gpus:
+    try:
+        for g in physical_gpus:
+            tf.config.experimental.set_memory_growth(g, True)
+    except Exception as e:
+        print('Error settings mem growth:', e)
+
+bottleneck_path_2_bottleneck_values = {}
+
+SESSION_CONFIG = tf.compat.v1.ConfigProto(
+    allow_soft_placement=True,
+)
+
 FLAGS = None
 
 # These are all parameters that are tied to the particular model architecture
@@ -247,7 +261,7 @@ def create_inception_graph():
       Graph holding the trained Inception network, and various tensors we'll be
       manipulating.
     """
-    with tf.compat.v1.Session() as sess:
+    with tf.compat.v1.Session(config=SESSION_CONFIG) as sess:
         model_filename = os.path.join(
             FLAGS.model_dir, 'classify_image_graph_def.pb')
         with gfile.FastGFile(model_filename, 'rb') as f:
@@ -396,6 +410,11 @@ def get_or_create_bottleneck(sess, image_lists, label_name, index, image_dir,
     ensure_dir_exists(sub_dir_path)
     bottleneck_path = get_bottleneck_path(
         image_lists, label_name, index, bottleneck_dir, category)
+
+    # Return from in-memory cache if available
+    if bottleneck_path in bottleneck_path_2_bottleneck_values:
+        return bottleneck_path_2_bottleneck_values[bottleneck_path]
+
     if not os.path.exists(bottleneck_path):
         create_bottleneck_file(bottleneck_path, image_lists, label_name, index,
                                image_dir, category, sess, jpeg_data_tensor, bottleneck_tensor)
@@ -404,7 +423,7 @@ def get_or_create_bottleneck(sess, image_lists, label_name, index, image_dir,
     did_hit_error = False
     try:
         bottleneck_values = [float(x) for x in bottleneck_string.split(',')]
-    except:
+    except Exception:
         print("Invalid float found, recreating bottleneck")
         did_hit_error = True
     if did_hit_error:
@@ -412,9 +431,11 @@ def get_or_create_bottleneck(sess, image_lists, label_name, index, image_dir,
                                image_dir, category, sess, jpeg_data_tensor, bottleneck_tensor)
         with open(bottleneck_path, 'r') as bottleneck_file:
             bottleneck_string = bottleneck_file.read()
-        # Allow exceptions to propagate here, since they shouldn't happen after a fresh creation
         bottleneck_values = [float(x) for x in bottleneck_string.split(',')]
-    return bottleneck_values
+
+    arr = np.array(bottleneck_values, dtype=np.float32)
+    bottleneck_path_2_bottleneck_values[bottleneck_path] = arr
+    return arr
 
 
 def cache_bottlenecks(sess, image_lists, image_dir, bottleneck_dir,
@@ -810,7 +831,7 @@ def main(_):
     do_distort_images = should_distort_images(
         FLAGS.flip_left_right, FLAGS.random_crop, FLAGS.random_scale,
         FLAGS.random_brightness)
-    sess = tf.compat.v1.Session()
+    sess = tf.compat.v1.Session(config=SESSION_CONFIG)
 
     if do_distort_images:
         # We will be applying distortions, so setup the operations we'll need.
