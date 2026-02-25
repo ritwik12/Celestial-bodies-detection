@@ -9,9 +9,12 @@
     <div id ="image-section" class="col-12 col-md-4 pb-4 px-0">
       <img class="w-100" src="data:;base64,{{ image }}" />
       <div class="container text-center pt-5">
+        <div class="container p-2 pt-2 pt-md-2">
+          <h2><b>Object Confidence</b></h2>
+        </div>
         {% for item in labels %}
-        {% if item[1]>0.01 %}
-        <p class="d-inline-block result-label">{{item[0]|capitalize}} {{item[1]|round(2)}}</p>
+        {% if item[1]>0.001 %}
+        <p class="d-inline-block result-label">{{item[0]|capitalize}} {{(item[1] * 100)|round(2)}}%</p>
         {% endif %}
         {% endfor %}
       </div>
