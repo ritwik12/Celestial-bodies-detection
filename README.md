@@ -18,8 +18,14 @@ Activate the virtual environment using a shell-specific command:
 `source ./venv/bin/activate  # sh, bash, ksh, or zsh`
 
 If using conda, you can run
-    `conda create -n tensorflow python=3.7`
+    `conda create -n tensorflow python=3.9`
     `source activate tensorflow`
+
+If you wish to use your GPU for processing and training, install CUDA in the conda environment.
+This example works for Nvidia GTX 1080
+    `conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0`
+
+[NVidia's Guide to Cuda Installation](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/)
 
 #### Install Requirements
 Move to the image_training directory: `cd /hub/examples/image_retraining`

@@ -4,6 +4,10 @@ from base64 import b64encode
 
 import requests
 import tensorflow as tf
+
+if len(tf.config.list_physical_devices('GPU')) > 0:
+    print("Supported GPU Found, using GPU")
+
 from PIL import Image
 from flask import render_template, request, redirect, url_for
 from flask_wtf import FlaskForm
@@ -14,16 +18,24 @@ from app import app
 from hub.examples.image_retraining.label_image import get_labels, wiki
 from hub.examples.image_retraining.reverse_image_search import reverseImageSearch
 
-# no secret key set yet
+# FOR DEVELOPMENT ONLY
 SECRET_KEY = os.urandom(32)
 app.config["SECRET_KEY"] = SECRET_KEY
+
+# FOR PRODUCTION
+'''
+app.config["SECRET_KEY"] = os.getenv("SECRET_KEY")
+if app.config["SECRET_KEY"] = None:
+    print("[ERROR] Secret key environment variable not set.")
+    quit()
+'''
 
 
 class SelectImageForm(FlaskForm):
     image_url = StringField(
         "image_url",
         validators=[validators.Optional(), validators.URL()],
-        render_kw={"placeholder": "Enter a URL"},
+        render_kw={"placeholder": "Enter an image URL"},
     )
     image_file = FileField(
         "file",
@@ -86,7 +98,7 @@ def result():
     try:
         celestial_object, labels = get_labels(imageBytes, cwd)
     except NameError:
-        return render_template("error.html", detail="You are not supposed to be here.")
+        return render_template("error.html", detail="Redirect Error")
     except Exception as e:
         return render_template("error.html", detail=str(e))
     title, properties, description = wiki(celestial_object, cwd)

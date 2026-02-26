@@ -50,7 +50,7 @@ a:active {
   /* z-index: -3; */
 
   -webkit-animation-name: STAR-MOVE;
-  -webkit-animation-duration: 200s;
+  -webkit-animation-duration: 800s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
@@ -65,7 +65,7 @@ a:active {
   /* z-index: -2; */
 
   -webkit-animation-name: STAR-MOVE;
-  -webkit-animation-duration: 150s;
+  -webkit-animation-duration: 500s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
@@ -80,7 +80,7 @@ a:active {
   /* z-index::-1; */
 
   -webkit-animation-name: STAR-MOVE;
-  -webkit-animation-duration: 100s;
+  -webkit-animation-duration: 300s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 }
